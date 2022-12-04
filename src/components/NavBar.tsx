@@ -7,6 +7,7 @@ import Link from "next/link";
 const navigation = [
   { name: "Work With Me", href: "/workwithme", newTab: false },
   { name: "Projects", href: "/projects", newTab: false },
+  { name: "Blog", href: 'https://typefully.com/RoxCodes', newTab: true },
   { name: "Experience", href: "/experience", newTab: false },
   { name: "Content", href: "https://linktr.ee/roxcodes", newTab: true },
   { name: "Story", href: "/story", newTab: false },
