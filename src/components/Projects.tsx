@@ -1,3 +1,4 @@
+import { ArrowRightIcon } from "@heroicons/react/24/outline";
 import { useRouter } from "next/router";
 
 const projectsData = [
@@ -13,7 +14,7 @@ const projectsData = [
     title: "BirdBuds",
     link: "https://BirdBuds.com",
     imgUrl: "https://birdbuds.com/lib_hFxGVkRJTRpiJeuZ/claknke4145krhkp.svg",
-    desc: "Met matched with a new friend on Twitter every week.",
+    desc: "Get matched with a new friend on Twitter every week.",
     notes:
       "Can you build an entire startup in just a twitter account? Yes. And I did! I built this with my partner, Aprilynne Alter :) Just launched! Planned monetization is sponsored messages or affiliate links for everyone that does not get matched. ",
   },
@@ -65,7 +66,6 @@ const projectsData = [
   //   },
 ];
 
-
 export default function Projects() {
   const router = useRouter();
 
@@ -84,26 +84,29 @@ export default function Projects() {
   }) => {
     return (
       <div
-        className="flex w-full transform cursor-pointer flex-col overflow-hidden rounded-lg bg-white shadow-lg transition duration-150  ease-in-out hover:scale-105 dark:bg-gray-600 lg:w-3/5 "
-        onClick={() => router.push(link)}
+        className="flex w-full transform cursor-pointer flex-col overflow-hidden rounded-lg bg-white shadow-lg transition duration-150  ease-in-out hover:scale-105 dark:bg-gray-600 "
+        onClick={() => window.open(link, "_blank", "noopener,noreferrer")}
       >
         <div className="flex h-fit w-full flex-col items-center justify-center">
           <img src={imgUrl} alt="Project logo" className="w-full px-3 py-3" />
         </div>
-        <div className="bg-white p-4 dark:bg-gray-600">
-          <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
-            {title}
-          </h3>
-          <p className="mt-1 text-lg text-gray-600 dark:text-gray-100">
+        <div className="bg-white px-4 pb-4 dark:bg-gray-600 w-full">
+          <p className="mt-0.5 text-lg font-medium text-gray-600 dark:text-gray-100">
             {description}
           </p>
-          <p className="mt-1 text-gray-300 dark:text-gray-300">{notes}</p>
+          <p className="py-3 text-gray-300 dark:text-gray-300">{notes}</p>
+          <div className="w-full mt-2">
+            <hr />
+            <h3 className="flex flex-row items-end py-2 text-xl font-semibold  text-gray-900 dark:text-white">
+              {title} <ArrowRightIcon className="ml-1 mb-[2px] h-5 w-5" />
+            </h3>
+          </div>
         </div>
       </div>
     );
   };
-  
-const DetailedProjectCard = ({
+
+  const DetailedProjectCard = ({
     imgUrl,
     title,
     description,
@@ -117,7 +120,10 @@ const DetailedProjectCard = ({
     notes: string;
   }) => {
     return (
-      <div className="overflow-hidden rounded-lg bg-white cursor-pointer shadow" onClick={() => router.push(link)}>
+      <div
+        className="cursor-pointer overflow-hidden rounded-lg bg-white shadow"
+        onClick={() => router.push(link)}
+      >
         <div className="px-4 py-5 sm:px-6">
           <img src={imgUrl} alt={title} className="w-full" />
         </div>
@@ -151,10 +157,10 @@ const DetailedProjectCard = ({
 
   return (
     <div className="flex w-full flex-col items-center justify-center gap-10 bg-white p-5 dark:bg-gray-800">
-      <div className="flex sm:w-1/2 flex-col items-center justify-center gap-10 bg-white p-5 dark:bg-gray-800">
+      <div className="flex flex-col items-center justify-center gap-10 bg-white p-5 dark:bg-gray-800 sm:w-1/2">
         {projectsData.map((project) => (
-          <DetailedProjectCard
-            key={project.title + 'key'}
+          <ProjectCard
+            key={project.title + "key"}
             imgUrl={project.imgUrl}
             title={project.title}
             description={project.desc}
