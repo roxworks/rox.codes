@@ -66,7 +66,7 @@ const Home: NextPage = () => {
           </h1>
           <div className="w-full flex flex-col gap-2 text-center text-[6vw] md:text-2xl text-white lg:w-3/5">
             <div>
-              <span>Hey! I'm Rox. </span>
+              <span>Hey! I&apos;m Rox. </span>
             </div>
             <div>
               <ClickThrough
@@ -76,7 +76,7 @@ const Home: NextPage = () => {
               />
             </div>
             <div>
-              <span>I've worked for </span>
+              <span>I&apos;ve worked for </span>
               <ClickThrough
                 href="/experience"
                 innerText="MrBeast, Facebook, Microsoft"
