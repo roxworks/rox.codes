@@ -282,14 +282,14 @@ const TimelineEntry = ({ event }: { event: Event }) => {
           ></path>
         </svg>
       </span>
-      <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+      <h3 className="mb-1 text-lg font-semibold text-white">
         {event.title}
       </h3>
-      <time className="mb-2 block text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+      <time className="mb-2 block text-sm font-normal leading-none text-gray-500">
         {event.startDate} {event.endDate && ` - ${event.endDate}`}{" "}
         {event.location && `(${event.location})`}
       </time>
-      <p className="text-base font-normal text-gray-500 dark:text-gray-400">
+      <p className="text-base font-normal text-gray-300">
         {event.description}
       </p>
     </li>
