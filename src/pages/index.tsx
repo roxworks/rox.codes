@@ -18,10 +18,12 @@ const Home: NextPage = () => {
     href,
     innerText,
     titleText,
+    newTab
   }: {
     href: string;
     innerText: string;
     titleText: string;
+    newTab?: boolean;
   }) => {
     return (
       <Link
@@ -39,6 +41,7 @@ const Home: NextPage = () => {
               hover:no-underline" //hover:bg-gradient-to-t from-sky-500 hover:transition-all
         href={href}
         title={titleText}
+        target={newTab ? "_blank" : undefined}
       >
         {innerText}
       </Link>
@@ -99,6 +102,7 @@ const Home: NextPage = () => {
                     href="https://linktr.ee/roxcodes"
                     innerText="content"
                     titleText="My Content Links"
+                    newTab
                   />{" "}
                   about what I build.{" "}
                 </span>{" "}
