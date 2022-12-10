@@ -177,6 +177,11 @@ const config = {
         source: '/jenni',
         destination: 'https://jenni.ai/?utm_source=rox',
         permanent: true,
+      },
+      {
+        source: '/book',
+        destination: 'https://www.amazon.com/dp/B0BPPRG3K8/ref=sr_1_7?crid=22W5A1KCI5OMT&keywords=The+Summit+of+shadows&qid=1670699320&sprefix=the+summit+of+shadows%2Caps%2C596&sr=8-7&tag=roxkstar74-20',
+        permanent: true,
       }
     ]
   },
