@@ -13,7 +13,7 @@ export default function BuilderSubmissionPage() {
 
   if(!fs) return null;
 
-  const href = "https://discord.gg/3Z9Z9Z9";
+  const href = "https://discord.gg/JtwYRvckne";
 
   return (
     <div className="lg:max-h-screen lg:overflow-hidden">
