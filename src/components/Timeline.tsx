@@ -219,13 +219,6 @@ const EVENTS = [
     location: "Redmond, WA",
   },
   {
-    title: "Internship @ Microsoft",
-    description:
-      "This would begin to cement the idea that I really don't like working for big companies. I got a job offer from Apple which would be my first FAANG company, but then Microsoft gave me an offer and seemed more fun. It was absolutely not fun.",
-    startDate: "Summer 2018",
-    location: "Redmond, WA",
-  },
-  {
     title: "Internship @ Intuit",
     description:
       "Towards the end, started to realize that I was doing nothing with my free time and that I wanted to be someone more amazing. What ever happened to the beef jerky kid I once was? Went to the company that makes TurboTax and did absolutely nothing related to TurboTax. Worked under the best manager I've ever had and learned how to be a better manager (one day, hopefully). Became extremely ok at ping pong.",
