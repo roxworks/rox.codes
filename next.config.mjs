@@ -187,6 +187,11 @@ const config = {
         source: '/buildmyideas',
         destination: 'https://tally.so/r/wbZJL0',
         permanent: true,
+      },
+      {
+        source: '/ultimatefriendship',
+        destination: 'https://app.thumbnailtest.com/?checkout_id=override',
+        permanent: true,
       }
     ]
   },
