@@ -5,6 +5,7 @@ import Link from "next/link";
 import NavBar from "../components/NavBar";
 
 import { trpc } from "../utils/trpc";
+import { Footer } from "../components/Footer";
 
 const Home: NextPage = () => {
   const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
@@ -59,7 +60,7 @@ const Home: NextPage = () => {
       <div className="lg:overflow-hidden lg:max-h-screen">
         <NavBar />
         <main className="flex min-h-screen flex-col items-center justify-center bg-gray-800">
-          <div className="container mb-16 flex flex-col items-center justify-start px-4 ">
+          <div className="w-full mb-2 flex flex-col items-center justify-start px-4">
             {/* picture of roxcodes on github */}
             <Image
               src="https://github.com/roxworks.png"
@@ -117,6 +118,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+          <Footer />
         </main>
       </div>
     </>
