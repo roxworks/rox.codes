@@ -8,7 +8,31 @@ const projectsData = [
     imgUrl: "/ThumbnailTest_Logo.svg",
     desc: "A/B Test Your Thumbnails Live On YouTube.",
     notes:
-      "My most successful project to date. Built in under 30 days, making $1000+ per month.",
+      "My most successful project to date. Built in under 30 days, making $3000+ per month.",
+  },
+  {
+    title: "ThumbnailCheck.com",
+    link: "https://ThumbnailCheck.com",
+    imgUrl: "/thumbnailcheck.png",
+    desc: "Preview your thumbnail before you upload it to YouTube.",
+    notes:
+      "Built in 4 hours. A free tool to get people into ThumbnailTest.com. Easily my most successful free tool."
+  },
+  {
+    title: "MagicThumbnails.com",
+    link: "https://MagicThumbnails.com",
+    imgUrl: "https://magicthumbnails.com/mtexamples.png",
+    desc: "Generate YouTube Thumbnails with AI",
+    notes:
+    "Tried super hard to make this really good, got it to a 5/10 or so and stopped - it now creates fiverr quality thumbnails."
+  },
+  {
+    title: "ThumbnailFace.com",
+    link: "https://ThumbnailFace.com",
+    imgUrl: "https://thumbnailface.com/ogimage.png",
+    desc: "Make Thumbnail Quality Faces, In Bulk, In Seconds",
+    notes:
+      "Built in a weekend. Scaffolding for something WAY cooler coming soon ;)",
   },
   {
     title: "BirdBuds",
