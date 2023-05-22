@@ -192,6 +192,11 @@ const config = {
         source: '/ultimatefriendship',
         destination: 'https://app.thumbnailtest.com/?checkout_id=override',
         permanent: true,
+      },
+      {
+        source: '/screenstudio',
+        destination: 'https://screenstudio.lemonsqueezy.com/?aff=LEDJV',
+        permanent: true,
       }
     ]
   },
