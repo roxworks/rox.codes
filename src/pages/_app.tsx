@@ -31,7 +31,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
     <Script
       src="https://app.krunchdata.io/assets/js/k2.js"
       data-api="https://api.krunchdata.io/traffic/web/record"
-      data-id="ivY21exnYiiPhw3BSpdd4jbUp6AGiZx7a0xH6Cmo2lS3po4DKvfvduV2FotbzV9M"
+      data-id="VVQmI5b3tzqkIee4pzhoyG5gXFHnbnmFAjjaV1flsqyTAIw91uf1g1i7YN1VkHpB"
       defer
       type="module"
     />
