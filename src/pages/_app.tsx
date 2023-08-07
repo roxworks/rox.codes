@@ -28,7 +28,6 @@ const MyApp: AppType = ({ Component, pageProps }) => {
  */
 
   return <>
-  <Head>
     <Script
       src="https://app.krunchdata.io/assets/js/k2.js"
       data-api="https://api.krunchdata.io/traffic/web/record"
@@ -36,7 +35,6 @@ const MyApp: AppType = ({ Component, pageProps }) => {
       defer
       type="module"
     />
-  </Head>
     <GoogleAnalytics trackPageViews />
     <Component {...pageProps} />
   </>;
