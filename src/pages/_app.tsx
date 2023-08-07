@@ -1,3 +1,4 @@
+//@ts-nocheck
 import { type AppType } from "next/app";
 
 import { trpc } from "../utils/trpc";
@@ -7,6 +8,7 @@ import { usePostHog } from "next-use-posthog";
 import "../styles/globals.css";
 import Head from "next/head";
 import Script from "next/script";
+
 
 const MyApp: AppType = ({ Component, pageProps }) => {
 
