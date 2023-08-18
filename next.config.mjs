@@ -95,12 +95,12 @@ const config = {
       },
       {
         source: '/youtube',
-        destination: 'https://youtube.com/roxkstar74',
+        destination: 'https://youtube.com/@roxcodes',
         permanent: true,
       },
       {
         source: '/yt',
-        destination: 'https://youtube.com/roxkstar74',
+        destination: 'https://youtube.com/@roxcodes',
         permanent: true,
       },
       {
@@ -145,7 +145,7 @@ const config = {
       },
       {
         source: '/chat',
-        destination: 'https://usemotion.com/meet/rox/chat',
+        destination: 'https://cal.com/roxcodes/secret',
         permanent: true,
       },
       {
@@ -166,11 +166,6 @@ const config = {
       {
         source: '/linkedin',
         destination: 'https://www.linkedin.com/in/roxkstar74',
-        permanent: true,
-      },
-      {
-        source: '/savebaby',
-        destination: 'https://us05web.zoom.us/j/83382181017?pwd=akJFOFBwK1RrTmdTeWF3eGlsZnJCUT09',
         permanent: true,
       },
       {
@@ -196,6 +191,11 @@ const config = {
       {
         source: '/screenstudio',
         destination: 'https://screenstudio.lemonsqueezy.com/?aff=LEDJV',
+        permanent: true,
+      },
+      {
+        source: '/call',
+        destination: 'https://cal.com/roxcodes/secret',
         permanent: true,
       }
     ]
