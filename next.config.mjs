@@ -197,6 +197,11 @@ const config = {
         source: '/call',
         destination: 'https://cal.com/roxcodes/secret',
         permanent: true,
+      },
+      {
+        source: '/testvid',
+        destination: 'https://www.youtube.com/shorts/vM4yExC4wuQ',
+        permanent: true,
       }
     ]
   },
