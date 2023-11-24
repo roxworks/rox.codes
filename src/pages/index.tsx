@@ -6,9 +6,16 @@ import NavBar from "../components/NavBar";
 
 import { trpc } from "../utils/trpc";
 import { Footer } from "../components/Footer";
+import { useRouter } from "next/router";
+
 
 const Home: NextPage = () => {
   const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
+  const router = useRouter();
+
+  if(router.query.via === 'ali') {
+    router.push('https://thumbnailtest.com/?via=ali');
+  }
 
   // angle 5 degrees on hove
   const linkStyle =
