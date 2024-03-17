@@ -7,7 +7,85 @@ type Event = {
 };
 
 const EVENTS = [
-    //Birbuds launch Dec 3rd 2022
+  //Birbuds launch Dec 3rd 2022
+
+  {
+    title: "A Better Idea",
+    description:
+      `Realize a much bigger opporunity for what I could build with this creator.
+      Suggest it, he's 100% in.
+      Start researching the podcast hosting space to see if I can do something interesting :)
+      `,
+    startDate: "March 2024",
+  },
+  {
+    title: "Lose my cofounder",
+    description:
+      `My cofounder went viral for a hackathon project.
+      Opportunity was huge and much closer to his dream, so I told him to go for it, and started hiring for the first time in my life.
+      `,
+    startDate: "February 2024 (late)",
+  },
+  {
+    title: "Actually sell Thumbnailtest",
+    description:
+      `After almost 3 months of grueling paperwork and migration, finally get paid for ThumbnailTest. 
+      By the end, sitting near $20k MRR, sold for functionally 1x ARR. 
+      YouTube is planning A/B testing themselves, and I don't want to fight that fight anymore.
+      Yet, selling this is still my greatest regret - I've felt lost since, and don't really have "life-changing" money to show for it.
+      Feels weird that friends at $5k MRR sold for similar prices. Feel dumb.
+      But it's time to move on.
+      `,
+    startDate: "February 2024",
+  },
+  {
+    title: "Start on something new",
+    description:
+      `Finally, a year later, convince a creator to launch products with me. Flew out to london with a new cofounder for a month to work with them. Decided the product idea wasn't good enough, but we should all build something else together. The opportunity is just too big.`,
+    startDate: "December 2023",
+    location: "London, UK"
+  },
+  {
+    title: "ThumbnailTest Blows Up",
+    description:
+      `After months of slow grow, ThumbnailTest hits ~$9k MRR. Then, a customer makes a video, and my MRR doubles to almost $18k 6 weeks later. Makes negotiating acquisition really hard, as price keeps increasing.`,
+    startDate: "November 2023",
+    location: "San Francisco, CA"
+  },
+  {
+    title: "Try to sell ThumbnailTest",
+    description:
+      `My 6 month old MicroAcquire listing finally pays off, I start getting offers. Negotiations begin.`,
+    startDate: "October 2023",
+    location: "San Francisco, CA"
+  },
+  {
+    title: "The Dark Times",
+    description:
+      `Questioned everything. A lot. Debated just shutting everything down and starting on something else. ThumbnailTest took up so much of my brain, even if not my time - I knew I needed a change. Struggled with asking for help, realized I was not surrounding myself with people I could learn from. Decided to try to fix that.`,
+    startDate: "September 2023",
+  },
+  {
+    title: "Launch BacklogBoost.com",
+    description:
+      `Wanted to see if I could build a more "enterprise" creator tool - released BacklogBoost at a starting price of $99/mo and got $1k MRR in the first week.`,
+    startDate: "August 2023",
+    location: "San Francisco, CA"
+  },
+  {
+    title: "Buildspace IRL SF1",
+    description:
+      "I got top 32 in buildspace s3, so they invited me out to SF to work from their office for 3 months and get mentored. I tried to expand into new and different creator tools, while growing ThumbnailTest on the side.",
+    startDate: "July 2023",
+    location: "San Francisco, CA"
+  },
+  {
+    title: "Return to ThumbnailTest (Marketing Month)",
+    description:
+      "My girlfriend Aprilynne challenged me to focus on one project for a bit. I did an entire month of marketing through buildspace n&w s3, and managed to double MRR ($1600 -> $3200).",
+    startDate: "March 2023",
+    location: "Denver, CO"
+  },
   {
     title: "The 10x Mindset Shift",
     description:
