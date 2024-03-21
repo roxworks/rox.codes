@@ -202,6 +202,16 @@ const config = {
         source: '/testvid',
         destination: 'https://www.youtube.com/shorts/vM4yExC4wuQ',
         permanent: true,
+      },
+      {
+        source: '/podcast',
+        destination: 'https://anchor.fm/s/f3804e24/podcast/rss',
+        permanent: true,
+      },
+      {
+        source: '/pod',
+        destination: 'https://anchor.fm/s/f3804e24/podcast/rss',
+        permanent: true,
       }
     ]
   },
