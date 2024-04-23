@@ -30,7 +30,7 @@ const EVENTS = [
     title: "Actually sell Thumbnailtest",
     description:
       `After almost 3 months of grueling paperwork and migration, finally get paid for ThumbnailTest. 
-      By the end, sitting near $18-20k MRR, sold for functionally 1x ARR. 
+      By the end, sitting near $16-20k MRR, sold for low 6-figures. 
       YouTube is planning A/B testing themselves, and I don't want to fight that fight anymore.
       Yet, selling this is still my greatest regret - I've felt lost since, and don't really have "life-changing" money to show for it.
       Feels weird that friends at $5k MRR sold for similar prices. Feel dumb.
@@ -48,7 +48,7 @@ const EVENTS = [
   {
     title: "ThumbnailTest Blows Up",
     description:
-      `After months of slow grow, ThumbnailTest hits ~$8k MRR. Then, a customer makes a video, and my MRR doubles to almost $16k 6 weeks later. Makes negotiating acquisition really hard, as price keeps increasing.`,
+      `After months of slow grow, ThumbnailTest hits ~$8k MRR. Then, a customer makes a video, and my MRR almost doubles to $15k 6 weeks later. Makes negotiating acquisition really hard, as price keeps increasing.`,
     startDate: "November 2023",
     location: "San Francisco, CA"
   },
