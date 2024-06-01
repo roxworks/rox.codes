@@ -10,6 +10,15 @@ const EVENTS = [
   //Birbuds launch Dec 3rd 2022
 
   {
+    title: "Assemble The Team",
+    description:
+      `Lock in some initial funds, and start hiring a full team for the first time in my life.
+        5 people. 1 product. 6 months to make it happen.
+        Feeling amazing.
+      `,
+    startDate: "May 2024",
+  },
+  {
     title: "A Better Idea",
     description:
       `Realize a much bigger opporunity for what I could build with this creator.
@@ -30,7 +39,7 @@ const EVENTS = [
     title: "Actually sell Thumbnailtest",
     description:
       `After almost 3 months of grueling paperwork and migration, finally get paid for ThumbnailTest. 
-      By the end, sitting near $16-20k MRR, sold for low 6-figures. 
+      By the end, sold for low-mid 6-figures. 
       YouTube is planning A/B testing themselves, and I don't want to fight that fight anymore.
       Yet, selling this is still my greatest regret - I've felt lost since, and don't really have "life-changing" money to show for it.
       Feels weird that friends at $5k MRR sold for similar prices. Feel dumb.
