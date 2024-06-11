@@ -212,6 +212,26 @@ const config = {
         source: '/pod',
         destination: 'https://anchor.fm/s/f3804e24/podcast/rss',
         permanent: true,
+      },
+      {
+        source: '/fantasy',
+        destination: 'https://www.youtube.com/watch?v=fMRIX9ydDeo',
+        permanent: true,
+      },
+      {
+        source: '/dnd',
+        destination: 'https://www.youtube.com/watch?v=fMRIX9ydDeo',
+        permanent: true,
+      },
+      {
+        source: '/music',
+        destination: 'https://www.youtube.com/watch?v=fMRIX9ydDeo',
+        permanent: true,
+      },
+      {
+        source: '/forbiddenisland',
+        destination: 'https://www.youtube.com/watch?v=fMRIX9ydDeo',
+        permanent: true,
       }
     ]
   },
