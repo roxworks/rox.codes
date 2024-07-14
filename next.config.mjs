@@ -232,6 +232,11 @@ const config = {
         source: '/forbiddenisland',
         destination: 'https://www.youtube.com/watch?v=fMRIX9ydDeo',
         permanent: true,
+      },
+      {
+        source: '/frontendTest',
+        destination: 'https://vintage-smile-604.notion.site/Rox-frontend-test-f18d522e15fb4adc81090470cbf17450?pvs=4',
+        permanent: true,
       }
     ]
   },
