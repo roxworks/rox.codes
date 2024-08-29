@@ -59,7 +59,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Rox.codes</title>
+        <title>Hi, I'm Rox! - I Build Creator Tools</title>
         <meta name="description" content="I build cool stuff for creators" />
         <meta name="facebook-domain-verification" content="memkcgqtvtfbym9i431pw9zm15eyd1" />
         <link rel="icon" href="/favicon.ico" />
