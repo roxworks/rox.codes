@@ -149,6 +149,11 @@ const config = {
         permanent: true,
       },
       {
+        source: '/important',
+        destination: 'https://usemotion.com/meet/rox-codes/important?d=30',
+        permanent: true,
+      },
+      {
         source: '/baserow',
         destination: 'https://bit.ly/3O5LBPO',
         permanent: true,
