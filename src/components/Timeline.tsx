@@ -21,7 +21,7 @@ const EVENTS = [
   {
     title: "A Better Idea",
     description:
-      `Realize a much bigger opporunity for what I could build with this creator.
+      `Realize a much bigger opportunity for what I could build with this creator.
       Suggest it, he's 100% in.
       Start researching the podcast hosting space to see if I can do something interesting :)
       `,
@@ -57,7 +57,7 @@ const EVENTS = [
   {
     title: "ThumbnailTest Blows Up",
     description:
-      `After months of slow grow, ThumbnailTest hits ~$8k MRR. Then, a customer makes a video, and my MRR almost doubles to $15k 6 weeks later. Makes negotiating acquisition really hard, as price keeps increasing.`,
+      `After months of slow growth, ThumbnailTest hits ~$8k MRR. Then, a customer makes a video, and my MRR almost doubles to $15k 6 weeks later. Makes negotiating acquisition really hard, as price keeps increasing.`,
     startDate: "November 2023",
     location: "San Francisco, CA"
   },
@@ -278,7 +278,7 @@ const EVENTS = [
     location: "Chicago, IL",
   },
   {
-    title: "Accepted into Alchemist Accelertaor",
+    title: "Accepted into Alchemist Accelerator",
     description:
       "Probably the first time I felt like we were becoming a 'real' business. Got enough money to live on for like a year which kept us going through SEVERAL pivots. Learned a lot about enterprise sales. We did this entire program remotely before remote things were cool. No zoom or anything, I was listening in to talks on my friend's cellphone sitting in the middle of the room on speaker mode. AND I WAS THE ONLY ONE THAT HAD NOTES.",
     startDate: "Early 2019",
@@ -327,7 +327,7 @@ const EVENTS = [
   {
     title: "Started a mini beef jerky business",
     description:
-      "I used to sell gum and candy on the bus, until a friend told me he made homemade beef jerky. I bought him a dehyradtor and we became 50/50 partners in the business. We were selling beef jerky to kids in little ziploc bags. It totally looked like we were selling weed. It was pretty funny.",
+      "I used to sell gum and candy on the bus, until a friend told me he made homemade beef jerky. I bought him a dehydrator and we became 50/50 partners in the business. We were selling beef jerky to kids in little ziploc bags. It totally looked like we were selling weed. It was pretty funny.",
     startDate: "2014",
   },
   {
