@@ -150,7 +150,7 @@ const config = {
       },
       {
         source: '/important',
-        destination: 'https://usemotion.com/meet/rox-codes/important?d=30',
+        destination: 'https://usemotion.com/meet/rox-codes/important',
         permanent: true,
       },
       {
