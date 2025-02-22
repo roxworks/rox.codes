@@ -149,6 +149,11 @@ const config = {
         permanent: true,
       },
       {
+        source: '/call',
+        destination: 'https://app.usemotion.com/meet/rox-codes/chat',
+        permanent: true,
+      },
+      {
         source: '/important',
         destination: 'https://usemotion.com/meet/rox-codes/important',
         permanent: true,
