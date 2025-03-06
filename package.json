@@ -18,6 +18,7 @@
     "@trpc/next": "^10.0.0",
     "@trpc/react-query": "^10.0.0",
     "@trpc/server": "^10.0.0",
+    "framer-motion": "^12.4.10",
     "next": "13.0.2",
     "next-use-posthog": "1.16.4",
     "nextjs-google-analytics": "^2.3.3",
