@@ -1,6 +1,6 @@
 import { ArrowRightIcon, InformationCircleIcon } from "@heroicons/react/24/outline";
 import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 // Function to add UTM parameters to URLs
 const addUtmParams = (url: string) => {
@@ -126,20 +126,7 @@ const projectsData = [
 
 export default function Projects() {
   const router = useRouter();
-  const [hasScrolled, setHasScrolled] = useState(false);
   const [showPopup, setShowPopup] = useState<string | null>(null);
-  
-  // Track scrolling to hide the scroll indicator
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100 && !hasScrolled) {
-        setHasScrolled(true);
-      }
-    };
-    
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [hasScrolled]);
   
   const ProjectCard = ({
     imgUrl,
@@ -183,7 +170,7 @@ export default function Projects() {
           index === 0 ? "mb-8" : "mb-12"
         } cursor-pointer ${
           featured ? "border-l-8" : "border-l-4"
-        } transition-all duration-300 hover:shadow-xl no-underline`}
+        } transition-all duration-300 hover:shadow-xl hover:-translate-y-1 no-underline`}
         style={{ 
           borderLeftColor: color,
           boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)'
@@ -211,10 +198,10 @@ export default function Projects() {
             className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
           />
           <div 
-            className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent opacity-50"
+            className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent opacity-50 transition-opacity duration-300 hover:opacity-40"
           />
           <h2 
-            className="absolute bottom-6 left-6 text-white text-3xl font-bold drop-shadow-lg"
+            className="absolute bottom-6 left-6 text-white text-3xl font-bold drop-shadow-lg transition-all duration-300 group-hover:translate-x-1"
           >
             {title}
           </h2>
@@ -230,7 +217,7 @@ export default function Projects() {
           
           <div className="flex">
             <div
-              className="flex items-center text-white font-medium rounded-lg px-6 py-3 text-lg shadow-md transition-all duration-300 hover:shadow-lg hover:brightness-110"
+              className="flex items-center text-white font-medium rounded-lg px-6 py-3 text-lg shadow-md transition-all duration-300 hover:shadow-lg hover:brightness-110 hover:translate-x-1 group cursor-pointer"
               style={{ 
                 background: `linear-gradient(to right, ${color}, ${color}CC)`,
               }}
@@ -278,18 +265,6 @@ export default function Projects() {
           />
         ))}
       </div>
-      
-      {/* Scroll indicator that disappears after scrolling */}
-      {!hasScrolled && (
-        <div 
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-gray-500 dark:text-gray-400"
-        >
-          <p className="text-sm mb-2">Scroll to see more</p>
-          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
-        </div>
-      )}
       
       {/* Popup for inactive projects */}
       {showPopup && (
