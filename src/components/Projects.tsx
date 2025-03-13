@@ -164,7 +164,7 @@ export default function Projects() {
       <a
         href={trackingUrl}
         target="_blank"
-        rel="noopener noreferrer"
+        rel="noopener"
         onClick={handleInactiveClick}
         className={`relative block w-full max-w-3xl overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-700 ${
           index === 0 ? "mb-8" : "mb-12"
