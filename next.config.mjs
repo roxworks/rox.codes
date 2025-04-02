@@ -247,6 +247,11 @@ const config = {
         source: '/frontendTest',
         destination: 'https://vintage-smile-604.notion.site/Rox-frontend-test-f18d522e15fb4adc81090470cbf17450?pvs=4',
         permanent: true,
+      },
+      {
+        source: '/pme',
+        destination: 'https://docs.google.com/spreadsheets/d/1yzZrraZTImvHsp7HfgQqHlmbiGnPX7GR9PPVcjYNle0/edit?gid=0#gid=0',
+        permanent: true,
       }
     ]
   },
