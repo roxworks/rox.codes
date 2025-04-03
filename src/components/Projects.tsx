@@ -121,7 +121,7 @@ const projectsData = [
       "My first startup. I was the CMO and did everything from marketing to product to sales. We got $50k from an accelerator program and used it to live off of for years.I moved to Chicago to work on this full time, but got depressed and left.",
     color: "#F57C00",
     active: false
-  },
+  }
 ];
 
 export default function Projects() {
@@ -164,7 +164,7 @@ export default function Projects() {
       <a
         href={trackingUrl}
         target="_blank"
-        rel="noopener"
+        rel="noopener noreferrer"
         onClick={handleInactiveClick}
         className={`relative block w-full max-w-3xl overflow-hidden rounded-xl bg-gray-50 dark:bg-gray-700 ${
           index === 0 ? "mb-8" : "mb-12"

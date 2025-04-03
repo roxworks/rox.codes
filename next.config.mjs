@@ -252,7 +252,8 @@ const config = {
         source: '/pme',
         destination: 'https://docs.google.com/spreadsheets/d/1yzZrraZTImvHsp7HfgQqHlmbiGnPX7GR9PPVcjYNle0/edit?gid=0#gid=0',
         permanent: true,
-      }
+      },
+      
     ]
   },
 };
