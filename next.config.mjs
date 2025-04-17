@@ -253,7 +253,16 @@ const config = {
         destination: 'https://docs.google.com/spreadsheets/d/1yzZrraZTImvHsp7HfgQqHlmbiGnPX7GR9PPVcjYNle0/edit?gid=0#gid=0',
         permanent: true,
       },
-      
+      {
+        source: '/flightcast-demo',
+        destination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
+        permanent: true,
+      },
+      {
+        source: '/fc-demo',
+        destination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
+        permanent: true,
+      }
     ]
   },
 };
