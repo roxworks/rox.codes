@@ -159,6 +159,11 @@ const config = {
         permanent: true,
       },
       {
+        source: '/anytime',
+        destination: 'https://usemotion.com/meet/rox-codes/anytime',
+        permanent: true,
+      },
+      {
         source: '/baserow',
         destination: 'https://bit.ly/3O5LBPO',
         permanent: true,
