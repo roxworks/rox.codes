@@ -260,12 +260,14 @@ const config = {
       },
       {
         source: '/flightcast-demo',
-        destination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
+        destination: 'https://www.loom.com/share/d8db2960fa404258a444c2d9b9a91d56',
+        // oldDestination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
         permanent: true,
       },
       {
         source: '/fc-demo',
-        destination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
+        destination: 'https://www.loom.com/share/d8db2960fa404258a444c2d9b9a91d56',
+        //oldDestination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
         permanent: true,
       }
     ]
