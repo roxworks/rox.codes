@@ -272,7 +272,7 @@ const config = {
       },
       {
         source: '/pm',
-        destination: 'https://cal.com/rox.codes/pm-chat',
+        destination: 'https://cal.com/roxcodes/pm-chat',
         //oldDestination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
         permanent: true,
       }
