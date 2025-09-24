@@ -272,6 +272,7 @@ const config = {
         //oldDestination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
         permanent: true,
       },
+      
       {
         source: '/fc-demo-short',
         destination: 'https://www.loom.com/share/004c6b92762947838c877ecec2fd878f',
