@@ -260,13 +260,13 @@ const config = {
       },
       {
         source: '/flightcast-demo',
-        destination: 'https://www.loom.com/share/11b13080ed394d808d575add1c85d332?sid=8e97895b-455f-4d1a-b4f6-6fddafd5dd9b',
+        destination: 'https://www.loom.com/share/85b79ba14ce644a5a056f662da53ce8c',
         // oldDestination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
         permanent: true,
       },
       {
         source: '/fc-demo',
-        destination: 'https://www.loom.com/share/11b13080ed394d808d575add1c85d332?sid=8e97895b-455f-4d1a-b4f6-6fddafd5dd9b',
+        destination: 'https://www.loom.com/share/85b79ba14ce644a5a056f662da53ce8c',
         // destination: 'https://www.loom.com/share/004c6b92762947838c877ecec2fd878f',
         // destination: 'https://www.loom.com/share/d8db2960fa404258a444c2d9b9a91d56',
         //oldDestination: 'https://www.loom.com/share/0aa03aa036db4d7d881affba276d5b1a',
