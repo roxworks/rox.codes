@@ -164,6 +164,16 @@ const config = {
         permanent: true,
       },
       {
+        source: '/urgent',
+        destination: 'https://usemotion.com/meet/rox-codes/urgent',
+        permanent: true,
+      },
+      {
+        source: '/demo-call',
+        destination: 'https://usemotion.com/meet/rox-codes/fc-demo',
+        permanent: true,
+      },
+      {
         source: '/baserow',
         destination: 'https://bit.ly/3O5LBPO',
         permanent: true,
